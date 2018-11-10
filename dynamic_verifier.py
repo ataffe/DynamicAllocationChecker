@@ -30,7 +30,6 @@ for line in fileLines:
 if newDeletecounter > 0:
     print("\n\n\nMismatching dynamic allocation in file: " + str(newDeletecounter) + "!")
     print("Variables not allocated: ")
-    print("variables: " + str(variable_names))
     for entry in variable_names:
         print(str(entry) + ":" + str(variable_names[entry]))
 else:
