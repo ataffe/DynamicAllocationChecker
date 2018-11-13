@@ -3,3 +3,5 @@ A python script that checks to see if all dynamic allocations in a C++ file have
 
 TODO
 Dont check comments
+Check for delete without new
+Check for use without new
